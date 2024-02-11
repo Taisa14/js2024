@@ -1,5 +1,14 @@
-const a = 'Зминна "a" в script-1.js';
-console.log(a);
+const age = 10;
+const totalPrice = 200.74;
+const userName = 'Chelsy';
+const message ='Вітаємо!';
+const isOpen = true;
+const shouldConfirm = false;
 
-const c = 'Змінна "с" в script-1.js';
-console.log(c);
+const type = typeof 5;
+console.log(type);
+
+// Як window.alert() ,блокує інтерпретації
+// console.log('before')
+// alert('hi');
+// console.log('after');
