@@ -64,11 +64,21 @@
 // }
 
 
-const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
-console.log(friends);
-const lastIndex = friends.length -1;
+// const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
+// console.log(friends);
+// const lastIndex = friends.length -1;
 
-for(let i = 0; i <=lastIndex; i += 1) {
-    friends[i] += '-1';
-}
-console.table(friends);
+// for(let i = 0; i <=lastIndex; i += 1) {
+//     friends[i] += '-1';
+// }
+// console.table(friends); 
+// C помощью for можем изменять массив внутри
+
+
+
+// const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax'];
+// for (const friend of friends) {
+//     console.log(friend);
+// }
+// console.log(friends)
+// перебрали масив с помощью for
