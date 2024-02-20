@@ -37,3 +37,19 @@
 // console.log(findLogin(logins, 'peace'));
 // console.log(findLogin(logins, 'apple'));
 // console.log(findLogin(logins, 'world'));
+
+
+// еще одно решение через тернарный метод
+
+
+// const logins = ['love', 'peace', 'world', 'Ukraine'];
+// const findLogin = function (allLogins, loginToFind) {
+//     return allLogins.includes(loginToFind)
+//     ? `Пользователь ${loginToFind} найден.`
+//     : `Пользователь ${loginToFind} не найден.`;
+// };
+
+// console.log(findLogin(logins, 'avocado'));
+// console.log(findLogin(logins, 'peace'));
+// console.log(findLogin(logins, 'apple'));
+// console.log(findLogin(logins, 'world'));
