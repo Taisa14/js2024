@@ -14,21 +14,21 @@
 
 // console.log('invertedString: ', invertedString);
 
-const changeCase = function (string){
-    const letters = string.split('');
-    let invertedString = '';
+// const changeCase = function (string){
+//     const letters = string.split('');
+//     let invertedString = '';
 
-    for (const letter of letters) {
+//     for (const letter of letters) {
         
-        const isInLowerCase = letter === letter.toLowerCase();
-         invertedString += isInLowerCase ? letter.toUpperCase() : letter.toLowerCase();
-        }
+//         const isInLowerCase = letter === letter.toLowerCase();
+//          invertedString += isInLowerCase ? letter.toUpperCase() : letter.toLowerCase();
+//         }
 
 
-    return invertedString;
+//     return invertedString;
 
-}
+// }
 
-console.log(changeCase('JavaScript'));
-console.log(changeCase('mAngO'));
-console.log(changeCase('POlly'));
+// console.log(changeCase('JavaScript'));
+// console.log(changeCase('mAngO'));
+// console.log(changeCase('POlly'));
