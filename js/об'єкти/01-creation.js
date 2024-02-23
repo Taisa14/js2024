@@ -38,6 +38,10 @@ const playlist = {
     tracks: ['трек-1', 'трек-2', 'трек-3'],
     trackCount: 3,
 };
+
+// playlist.qwe = 5;
+// playlist.rating = 10;
+// console.log(playlist);
 // console.log(playlist.tracks);
 // console.log(playlist.name);
 
@@ -68,21 +72,54 @@ const propertyName = 'tracks';
 
 // Короткая запись свойства
 
-const username = 'Mango';
-const email = 'mango@gmail.com';
+// const username = 'Mango';
+// const email = 'mango@gmail.com';
 
-const signupDate = {
-    username: username,
-    email: email,
-};
+// const signupDate = {
+//     username,
+//     email,
+// };
 
-console.log(signupDate);
+// console.log(signupDate);
 
 // // Вычисляем свойства
+
+{/* <input name = "color value = "tomato" > */}
 
 // const inputName = 'color';
 // const inputValue = 'tomato';
 
-// const colorPickerData = {};
+// const colorPickerData = {
+//     [inputName]: inputValue,
+// };
+
+// console.log(colorPickerData);
+
+
 
 // Ссылочный тип {} === {}
+
+
+// const a = { x: 1, y: 2};
+// const b = a;
+// a.hello = 100;
+
+
+// console.log(b === a);
+// console.log(a);
+// console.log(b);
+
+// Массивы и функции это объекты
+
+// const a = [1, 2, 3];
+
+// a.hello = ':)';
+// console.log(a);
+
+
+// const fn = function () {
+//     console.log('hello');
+// }
+
+// fn.hello = ':)';
+// console.log(fn.hello);
