@@ -32,12 +32,12 @@
 // console.log(rtfm);
 
 
-const playlist = {
-    name: 'Мой супер плейлист',
-    ratings: 5,
-    tracks: ['трек-1', 'трек-2', 'трек-3'],
-    trackCount: 3,
-};
+// const playlist = {
+//     name: 'Мой супер плейлист',
+//     ratings: 5,
+//     tracks: ['трек-1', 'трек-2', 'трек-3'],
+//     trackCount: 3,
+// };
 
 // playlist.qwe = 5;
 // playlist.rating = 10;
@@ -46,7 +46,7 @@ const playlist = {
 // console.log(playlist.name);
 
 
-const propertyName = 'tracks';
+// const propertyName = 'tracks';
 
 // console.log(playlist['ratings']);
 // console.log(playlist.ratings);
