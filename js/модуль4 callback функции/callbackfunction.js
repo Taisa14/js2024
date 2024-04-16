@@ -5,22 +5,54 @@
 // или возвращает функцию как результат своей работы называется функцией высшего порядка
 
 
-const fnA = function (message, callback) {
-    console.log(message);
+// const fnA = function (message, callback) {
+//     console.log(message);
 
-    console.log(callback);
-    callback(100);
+//     console.log(callback);
+//     callback(100);
 
-}
+// }
 
-const fnB = function () {
-    console.log('Этот Лог при вызову fnB', number);
-};
+// const fnB = function (number) {
+//     console.log('Этот Лог при вызову fnB', number);
+// };
 
-fnA('Hello', fnB);
+// fnA('Hello', fnB);
+
+
+
 
 
 // Функция doMath (a, b, callback)
+
+// const doMath = function (a, b, callback) {
+//     const result = callback (a, b);
+
+//     console.log(result);
+// };
+
+// const add = function (x, y) {
+//     return x + y;
+
+// };
+
+// const sub = function (x, y) {
+//     return x - y;
+// };
+
+// doMath(2, 3, add); //5
+// doMath(10, 8, sub); //2
+
+
+
+
+
+
+
+
+
+
+
 
 
 
