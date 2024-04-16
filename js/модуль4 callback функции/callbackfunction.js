@@ -59,12 +59,29 @@
 
 // отложенный вызов: регистрация событий
 
-// const buttonRef = document.quarySelector ('.js-button');
+
+// const buttonRef = document.querySelector('.js-button');
+
+// buttonRef.addEventListener('click', function () {
+//     console.log('клик');
+// });
 
 
 // отложенный вызов: геолокация
 
-// window.navigator.geolocation.getCurrentPosition();
+;
+const onGetPositionSuccess = function (position) {
+    console.log(position);
+
+};
+const onGetPositionError = function (error) {
+    console.log(error);
+}
+
+window.navigator.geolocation.getCurrentPosition(
+    onGetPositionSuccess,
+    onGetPositionError
+)
 
 
 // Отложенный вызов : интервалы
