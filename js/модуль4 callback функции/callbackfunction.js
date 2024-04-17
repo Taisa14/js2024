@@ -101,17 +101,17 @@
 
 // Отложенный вызов : http - запрос
 
-const onRequestSuccess = function (response) {
-    console.log(
-        'Вызов фуенкции onRequestSuccess после успешного ответа бекенда',
-    );
+// const onRequestSuccess = function (response) {
+//     console.log(
+//         'Вызов фуенкции onRequestSuccess после успешного ответа бекенда',
+//     );
 
-    console.log(response);
-}
+//     console.log(response);
+// }
 
-fetch ('https://pokeapi.co/api/v2/pokemon')
-.then(res => res.json())
-.then(onRequestSuccess);
+// fetch ('https://pokeapi.co/api/v2/pokemon')
+// .then(res => res.json())
+// .then(onRequestSuccess);
 
 
 
