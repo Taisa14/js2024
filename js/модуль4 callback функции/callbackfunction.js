@@ -67,26 +67,55 @@
 // });
 
 
+
+
+
 // отложенный вызов: геолокация
 
-;
-const onGetPositionSuccess = function (position) {
-    console.log(position);
+// ;
+// const onGetPositionSuccess = function (position) {
+//     console.log('Это вызов onGetPositionSuccess');
+//     console.log(position);
 
-};
-const onGetPositionError = function (error) {
-    console.log(error);
-}
+// };
+// const onGetPositionError = function (error) {
+//     console.log(error);
+// }
 
-window.navigator.geolocation.getCurrentPosition(
-    onGetPositionSuccess,
-    onGetPositionError
-)
+// window.navigator.geolocation.getCurrentPosition(
+//     onGetPositionSuccess,
+//     onGetPositionError
+// )
 
 
 // Отложенный вызов : интервалы
 
-// console.oog('В коде перед таймаутом');
+// const callback = function() {
 //  console.log('Через 3 секунды внутри колбека в таймауте');
+// };
+
+// console.log('В коде перед таймаутом');
+
+// setTimeout(callback, 2000);
 // console.log('в коде после таймаута');
+
+// Отложенный вызов : http - запрос
+
+const onRequestSuccess = function (response) {
+    console.log(
+        'Вызов фуенкции onRequestSuccess после успешного ответа бекенда',
+    );
+
+    console.log(response);
+}
+
+fetch ('https://pokeapi.co/api/v2/pokemon')
+.then(res => res.json())
+.then(onRequestSuccess);
+
+
+
+
+
+
 
