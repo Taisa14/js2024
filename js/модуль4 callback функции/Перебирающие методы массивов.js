@@ -66,6 +66,37 @@ console.log('playerIds', playerIds);
 
 
 
-const res = players.map(({name, online}) => ({name, online}));
+// const res = players.map(({name, online}) => ({name, online}));
     
-console.log('res', res);
+// console.log('res', res);
+
+
+// const upatedPlayers = players.map(player => ({
+//     ...player,
+//     points: player.points * 1.1
+// })); 
+
+
+// const playerIdToUpdate = 'player-3';
+// // const updatedPlayers = players.map(player => {
+// //     if(playerIdToUpdate === player.id){
+// //     return{
+// //         ...player,
+// //         timePlayed: player.timePlayed + 100,
+// //     };
+// // }
+// // return player;
+// // });
+// // console.log(updatedPlayers);
+
+
+// можно сделать тоже самое только тернарником
+
+
+// const playerIdToUpdate = 'player-3';
+// const updatedPlayers = players.map(player => 
+//  playerIdToUpdate === player.id 
+//     ? {...player, timePlayed: player.timePlayed + 100}
+//     : player,
+// );
+// console.table(updatedPlayers);
